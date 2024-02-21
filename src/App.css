@@ -1,0 +1,908 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(244, 244, 244);
+  width: 100%;
+}
+
+.Top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  gap: 7rem;
+  top: 0;
+  position: fixed;
+  background-color: #004db3;
+  /* padding: 10px; */
+  z-index: 10;
+}
+
+.hamburger{
+  display: none;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+}
+
+.hamburger {
+  display: none; /* Hide by default for larger screens */
+  cursor: pointer;
+}
+
+.navlist {
+  list-style-type: none;
+  display: flex;
+}
+
+.navlist li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navlist {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  /* display: flex; */
+   
+}
+
+ul, li {
+  list-style: none;
+  display: flex;
+  padding: 17px 23px;
+  padding-left: 0;
+  padding-right: 0;
+  color: rgb(196, 192, 192);
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+li.active,li:hover {
+    transition: .5s;
+    color: white;    
+}
+
+li:nth-child(6) {
+  border: 1px solid white;
+  background-color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 5px;
+  color: rgb(0, 72, 255);
+}
+
+li:hover:nth-child(6) {
+  background-color: rgb(192, 190, 190);
+  
+}
+
+.fine-girl {
+  margin-top: 13rem;
+}
+
+.Grow {
+  margin-top: 15rem;
+  font-size: 3.8rem;
+  width: 30rem;
+}
+
+.first-wrapper {
+  display: flex;
+  /* margin-top: 13rem; */
+  justify-content: center;
+  background-color: #004db3;
+}
+
+.Build {
+  color: white;
+  font-weight: bold;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  width: 35rem;
+}
+
+.Enroll-now {
+  /* display: flex; */
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+button {
+  padding: 1.35rem;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+
+.started {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.Enroll {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(0, 72, 255);
+}
+
+.mapped-users {
+  display: flex;
+  margin-top: 1.7rem;
+  gap: 0.5rem;
+}
+
+.previews {
+  color: white;
+}
+
+.prev {
+  font-size: 1rem;
+}
+
+.Stripes {
+  justify-content: center;
+  display: flex;
+  background-color: rgb(204, 204, 233);
+  gap: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.High-quality {
+  background-color: rgb(244, 244, 244);
+  padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.High {
+  color: black;
+  font-size: 3.5rem;
+  width: 25rem;
+}
+
+.Definition {
+  color: gray;
+  /* font-weight: bold; */
+}
+
+.users {
+  position: absolute;
+  left: 39.3rem;
+  bottom: -119%;
+}
+
+.Hero {
+  margin-top: 5rem;
+}
+
+.View {
+  background-color: #004db3;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 2rem;
+  width: 10rem;
+}
+
+.Audio {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.Audio-class {
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  width: 11rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.Best {
+  color: black;
+  font-size: 3.5rem;
+  width: 26rem;
+}
+
+.Mentor {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Frames {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.Fame {
+  background-color: #fff;
+  width: 13rem;
+  padding: 1.5rem;
+  /* font-size: 13.3px; */
+}
+
+.Frameup {
+  margin-bottom: 1.5rem;
+}
+
+.icons {
+  margin-bottom: 1.5rem;
+}
+
+.resolution {
+  font-size: 12px;
+}
+
+.Browser {
+  color: black;
+  font-size: 3.5rem;
+}
+
+.Popular {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.Define {
+  color: grey;
+  font-size: 13.5px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.Categories {
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 3rem;
+  /* margin-bottom: 3rem; */
+}
+
+li:nth-child(1) {
+  color: blue;
+} 
+
+.cater {
+  /* color: blue; */
+  background-color: #fff;
+}
+
+.Learn {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #fff;
+  width: 20rem;
+  padding-left: 1.5rem;
+  padding-top: 0.9rem;
+  padding-bottom: 1.2rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.Learn:hover {
+  background-color: rgb(172, 248, 171);
+}
+
+.uix {
+  color: black;
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+}
+
+.Victor {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.Desig {
+  background-color: rgb(179, 177, 177);
+  padding: 0.2rem;
+  width: 4rem;
+  border-radius: 10px;
+  color: blue;
+  font-weight: 540;
+}
+
+.prop {
+  display: flex;
+  gap: 8rem;
+  margin-bottom: 0.8rem;
+}
+
+.pro {
+  font-size: 13px;
+}
+
+.Learner {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  padding-bottom: 3rem;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+}
+
+.align {
+  padding-top: 3rem;
+}
+
+.Explore {
+  background-color: #004db3;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 3rem;
+  width: 15rem;
+  font-size: 1rem; 
+  margin-bottom: 2rem;
+}
+
+.Hello {
+  display: flex;
+  justify-content: center;
+}
+
+.there {
+  display: none;
+}
+
+.Stand {
+  width: 27rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 18px;
+  margin-top: 4rem;
+  
+}
+
+.Fort {
+  font-weight: bold;
+}
+
+.forte {
+  margin-top: 1rem;
+}
+
+.atlas {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.Standard {
+  font-size: 15px;
+  color: grey;
+  font-weight: 490;
+}
+
+.Commute {
+  background-color: #004db3;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.conn {
+  color: white;
+}
+
+.Community {
+  justify-content: center;
+  text-align: center;
+}
+
+.Techstars {
+  color: white;
+}
+
+.people {
+  justify-content: center;
+  align-self: center;
+  margin-top: 1.3rem;
+}
+
+.persons {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.diap {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+
+.join {
+  color: blue;
+  font-weight: bold;
+  font-size: 16px;
+  width: 15rem;
+  margin-top: 2rem;  
+}
+
+.Facts {
+  padding-top: 5rem;
+  /* padding-bottom: 7rem; */
+}
+
+.question {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.Trial {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+  gap: 30rem;
+  padding-bottom: 2rem;
+}
+
+.can {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+  gap: 31rem;
+  padding-bottom: 2rem;
+}
+
+.life {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+  gap: 33rem;
+  padding-bottom: 2rem;
+}
+
+.cert {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+  gap: 23rem;
+  padding-bottom: 2rem;
+}
+
+.Reah {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+  gap: 28rem;
+  padding-bottom: 2rem;
+}
+
+.kin {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3.5rem;
+  gap: 21rem;
+  padding-bottom: 2rem;
+}
+
+hr {
+  width: 70%;
+  margin-left: 12rem;
+  color: rgb(255, 237, 237);
+}
+
+footer {
+  background-color: rgb(14, 14, 28);
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10rem;
+}
+
+.social {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+ol, li {
+  list-style: none;
+  padding: 17px 23px;
+  color: rgb(196, 192, 192);
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 0;
+}
+
+.Avail {
+  color: black;
+}
+
+.slide {
+  background: white;
+  text-align: center;
+  color: black;
+  height: 238px;
+  /* margin-top: 2rem; */
+  margin-bottom: 4rem;
+}
+
+.img45 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.img45 .name > span {
+  color: black;
+  display: block;
+  text-align: start;
+  font-weight: 700;
+}
+
+.techy {
+  height: 2.5rem;
+  width: 100px;
+}
+
+.cards {
+  background: white;
+  padding: 40px 60px;
+  /* width: 400px; */
+}
+
+.opent {
+  display: flex;
+  flex-direction: column;
+  background: rgb(244, 244, 244);
+  color: black;
+  /* padding: 50px 40px; */
+  padding-bottom: 9rem;
+  align-items: center;
+  justify-content: center;
+}
+.openItem {
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(211, 208, 208);
+  padding: 30px;
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+}
+.questions3 {
+  font-weight: 900;
+  cursor: pointer;
+  text-align: start;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.openItem.active {
+  color: blue;
+}
+.answer {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(209, 206, 206);
+}
+
+a:hover {
+  color: white;
+}
+
+.homie {
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .cards {
+    padding: 10px 20px;
+  }
+
+  .Top {
+    gap: 35rem;
+    height: 11.7vh;
+  }
+  
+  .navlist {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+      right: 0;
+      top: 45px;
+      left: 0;
+      bottom: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background-color: #004db3;
+      text-align: center;
+      
+  } 
+
+  .hamburger{
+    display: flex;
+  }
+
+  .first-wrapper {
+    display: block;
+    /* margin-top: 13rem; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .Build {
+    font-size: 10px;
+    width: 100%;
+    font-weight: normal;
+  }
+
+  .builders {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: block;
+  }
+  .Grow {
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    width: 100%;
+  }
+
+  .fine-girl {
+    height: 35rem;
+  }
+
+  .started {
+    /* height: 2rem; */
+    padding: 0.8rem;
+    font-size: 10px;
+    
+  }
+
+  .Enroll {
+    /* height: 3rem; */
+    padding: 0.8rem;
+    font-size: 10px;
+  }
+  .cents {
+    height: 2.5rem;
+  }
+
+  .prev {
+    font-size: 13.8px;
+  }
+  .previews {
+    font-size: 13.8px;
+  }
+
+  .bars {
+    display: block;
+}
+
+.mapped-users {
+  justify-content: center;
+}
+
+.fine-girl {
+  margin: 3rem;
+}
+
+.drip {
+  height: 15px;
+}
+
+.High-quality {
+  display: block;
+  text-align: center;
+}
+
+.High {
+  font-size: 1.5rem;
+  width: 100%;
+} 
+
+.Definition {
+  font-size: 10px;
+}
+
+.Audio {
+  justify-content: center;
+}
+
+.users {
+  position: absolute;
+  left: 8.5rem;
+  bottom: -235%;
+  height: 4rem;
+}
+
+.Best {
+  color: black;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.Mentor {
+  display: block;
+  text-align: center;
+}
+
+.Little-Kid {
+  margin-top: 2rem;
+  width: 40rem;
+ 
+}
+
+.Frames {
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.Fame {
+  width: 21.5rem;
+}
+
+.Browser {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.Define {
+  font-size: 9px;
+}
+
+.align {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  gap: 0.05rem;
+  justify-content: center;
+}
+
+/* .Explore {
+  height: 1rem; 
+  width: 10rem;
+  font-size: 12px; 
+
+} */
+
+.Learner {
+ 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.Techstars {
+  font-size: 10px;
+}
+
+.people {
+  width: 40rem;
+}
+
+.join {
+  height: 1rem;
+  padding-top: 10px;
+  font-size: 8px;
+  width: 8rem;
+  margin-top: 2rem;  
+}
+
+.Avail {
+  font-size: 15px;
+}
+
+.plus {
+  width: 1.1rem;
+}
+
+hr {
+  width: 94%;
+  margin-left: 1.2rem;
+}
+.life {
+  gap: 32rem
+}
+.cert {
+  gap: 26rem
+}
+.Reah {
+  gap: 29rem
+}
+.kin {
+  gap: 24rem
+}
+footer {
+  display: block;
+ /* justify-content: center;*/
+  padding-left: 2rem; 
+  padding-top: 4rem;
+}
+.hamburger {
+  display: block; /* Show for smaller screens */
+}
+
+
+
+.navlist.open {
+  display: flex; /* Show when menu is open */
+}
+
+.navlist li {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.questions3 {
+    font-weight: 900;
+    cursor: pointer;
+    text-align: start;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  .openItem {
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+}
